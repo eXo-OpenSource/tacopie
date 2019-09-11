@@ -1,6 +1,6 @@
 solution "tacopie"
-    configurations { "Debug", "Release" }
-    location ( "Build" )
+	configurations { "Debug", "Release" }
+	location ( "Build" )
 	targetdir "Bin/%{cfg.buildcfg}/%{cfg.platform}"
 
 	platforms { "x86", "x64" }
@@ -18,4 +18,4 @@ solution "tacopie"
 	filter "configurations:Release"
 		optimize "On"
 
-    include "tacopie"
+	include "tacopie"

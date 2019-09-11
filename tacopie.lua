@@ -8,14 +8,14 @@ project "tacopie"
 
     vpaths {
         ["Headers/*"] = "includes/tacopie/**.hpp",
-		["Sources/*"] = "sources/**.cpp",
-		["*"] = "premake5.lua"
-	}
+        ["Sources/*"] = "sources/**.cpp",
+        ["*"] = "premake5.lua"
+    }
     
     files {
-		"premake5.lua",
-		"**.cpp",
-		"**.hpp"
+        "premake5.lua",
+        "**.cpp",
+        "**.hpp"
     }
     
     excludes {
